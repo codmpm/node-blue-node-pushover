@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-pushover",
+  "version": "1.0.0",
+  "description": "Push messages to your device using https://pushover.net/.",
+  "homepage": "https://github.com/codmpm/node-blue-node-pushover",
+  "node-blue": {
+    "maxThreadCounts": {
+      "pushover": 0
+    },
+    "nodes": {
+      "pushover": "pushover.php"
+    }
+  }
+}
